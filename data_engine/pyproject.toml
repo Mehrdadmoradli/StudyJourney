@@ -1,0 +1,28 @@
+[project]
+name = "studyjourney-data-engine"
+version = "0.1.0"
+description = "Data ingestion and processing engine for StudyJourney"
+readme = "README.md"
+authors = [
+    { name = "Mehrdad Moradli", email = "M.Moradli9978@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pymupdf>=1.28.2",
+]
+
+[project.scripts]
+data-engine = "data_engine:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
