@@ -14,4 +14,4 @@ study-program data from German universities.
 
 ## Current scope
 
-Version 0.1 supports extracting page-numbered text from local PDF documents.
+Version 0.2 supports downloading online study program sources.
