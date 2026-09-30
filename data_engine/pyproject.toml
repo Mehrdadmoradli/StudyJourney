@@ -1,6 +1,6 @@
 [project]
 name = "studyjourney-data-engine"
-version = "0.2.0"
+version = "0.3.0"
 description = "Data ingestion and processing engine for StudyJourney"
 readme = "README.md"
 authors = [
