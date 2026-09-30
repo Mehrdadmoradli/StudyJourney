@@ -1,0 +1,144 @@
+{
+  "requirements": [
+    {
+      "type": "qualifying degree duration",
+      "operator": ">=",
+      "value": 6.0,
+      "unit": "semesters",
+      "evidence": {
+        "page": 2,
+        "text": "According to German standards, the scope of these studies must be at least a) six semesters and 180 ECTS credits"
+      }
+    },
+    {
+      "type": "qualifying degree credits",
+      "operator": ">=",
+      "value": 180.0,
+      "unit": "ECTS credits",
+      "evidence": {
+        "page": 2,
+        "text": "According to German standards, the scope of these studies must be at least a) six semesters and 180 ECTS credits"
+      }
+    },
+    {
+      "type": "qualifying degree duration",
+      "operator": ">=",
+      "value": 7.0,
+      "unit": "semesters",
+      "evidence": {
+        "page": 2,
+        "text": "According to German standards, the scope of these studies must be at least ... b) seven semesters and 210 ECTS credits"
+      }
+    },
+    {
+      "type": "qualifying degree credits",
+      "operator": ">=",
+      "value": 210.0,
+      "unit": "ECTS credits",
+      "evidence": {
+        "page": 2,
+        "text": "According to German standards, the scope of these studies must be at least ... b) seven semesters and 210 ECTS credits"
+      }
+    },
+    {
+      "type": "foreign degree equivalence",
+      "operator": ">=",
+      "value": 3.0,
+      "unit": "years",
+      "evidence": {
+        "page": 2,
+        "text": "applicants with a foreign degree must provide evidence of a degree equivalent to a German degree of at least three years (para. 1a)"
+      }
+    },
+    {
+      "type": "foreign degree equivalence",
+      "operator": ">=",
+      "value": 3.5,
+      "unit": "years",
+      "evidence": {
+        "page": 2,
+        "text": "applicants with a foreign degree must provide evidence of a degree equivalent to a German degree of at least ... three and a half years (para. 1b)"
+      }
+    },
+    {
+      "type": "grade point average",
+      "operator": "<=",
+      "value": 2.5,
+      "unit": null,
+      "evidence": {
+        "page": 2,
+        "text": "The grade point average must be at least 2.5 or better"
+      }
+    },
+    {
+      "type": "percentage of maximum achievable grades",
+      "operator": ">=",
+      "value": 75.0,
+      "unit": "percent",
+      "evidence": {
+        "page": 2,
+        "text": "The grade point average must be at least 2.5 or better or 75% of the maximum achievable grades."
+      }
+    },
+    {
+      "type": "TOEFL computer-based score",
+      "operator": ">=",
+      "value": 213.0,
+      "unit": "TOEFL points",
+      "evidence": {
+        "page": 3,
+        "text": "Qualified English language skills must be demonstrated, usually by a TOEFL test (computer-based at least 213 points"
+      }
+    },
+    {
+      "type": "TOEFL paper-based score",
+      "operator": ">=",
+      "value": 550.0,
+      "unit": "TOEFL points",
+      "evidence": {
+        "page": 3,
+        "text": "paper-based at least 550 points"
+      }
+    },
+    {
+      "type": "TOEFL internet-based score",
+      "operator": ">=",
+      "value": 85.0,
+      "unit": "TOEFL points",
+      "evidence": {
+        "page": 3,
+        "text": "internet-based at least 85 points"
+      }
+    },
+    {
+      "type": "IELTS score",
+      "operator": ">=",
+      "value": 6.5,
+      "unit": "IELTS band",
+      "evidence": {
+        "page": 3,
+        "text": "Alternatively, an IELTS test with a score of band 6.5 or higher is also accepted."
+      }
+    },
+    {
+      "type": "DSH German language certificate level",
+      "operator": "=",
+      "value": 1.0,
+      "unit": "DSH level",
+      "evidence": {
+        "page": 3,
+        "text": "Alternatively, the language certificates DSH1 or TestDaF at least TDN 3 are also accepted."
+      }
+    },
+    {
+      "type": "TestDaF German language certificate level",
+      "operator": ">=",
+      "value": 3.0,
+      "unit": "TDN",
+      "evidence": {
+        "page": 3,
+        "text": "Alternatively, the language certificates DSH1 or TestDaF at least TDN 3 are also accepted."
+      }
+    }
+  ]
+}

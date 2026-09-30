@@ -1,7 +1,7 @@
 [project]
 name = "studyjourney-data-engine"
-version = "0.3.0"
-description = "Data ingestion and processing engine for StudyJourney"
+version = "0.4.0"
+description = "Addin LLM Extraction Layer"
 readme = "README.md"
 authors = [
     { name = "Mehrdad Moradli", email = "M.Moradli9978@gmail.com" }
@@ -9,6 +9,8 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "httpx>=0.28.1",
+    "openai>=3.22.1",
+    "pydantic>=2.13.5",
     "pymupdf>=1.28.2",
 ]
 
